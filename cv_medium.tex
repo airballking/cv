@@ -32,9 +32,9 @@
 \usepackage{hyperref} % Required for adding links	and customizing them
 \hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
 
-\newlength{\datebox}\settowidth{\datebox}{Spring 2011} % Set the width of the date box in each block
+\newlength{\datebox}\settowidth{\datebox}{02/2012-08/2012} % Set the width of the date box in each block
 
-\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{-0.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
 \vspace{0.5em}} % Add some white space after each new entry
 
 \newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
@@ -69,37 +69,37 @@
 
 \noindent\spacedlowsmallcaps{Work Experience}\vspace{1em}
 
-\NewEntry{09/2012--present}{Research Assistent, \textsc{Institute for Artificial Intelligence}}
+\NewEntry{09/2012-present}{Research Assistent, \textsc{Institute for Artificial Intelligence}}
 
 \Description{\MarginText{Universit\"at Bremen}Moved with Professor Michael Beetz to continue work on EU FP7 projects RoboHow and SAPHARI. Research topics: Robot motion control, reactive robot plan execution.}
 
 %------------------------------------------------
 
-\NewEntry{02/2012--08/2012}{Research Assistent, \textsc{Intelligent Autonomous Systems Group}}
+\NewEntry{02/2012-08/2012}{Research Assistent, \textsc{Intelligent Autonomous Systems Group}}
 
 \Description{\MarginText{Technische Universit\"at M\"unchen}Actively involved in EU FP7 projects RoboHow and SAPHARI. Organized RoboHow integration workshop 2012. Research topics: Robot motion control, reactive robot plan execution.}
 
 %------------------------------------------------
 
-\NewEntry{01/2011--01/2012}{Student Assistent, \textsc{Robotics and Biology Labroratory}}
+\NewEntry{01/2011-01/2012}{Student Assistent, \textsc{Robotics and Biology Labroratory}}
 
-\Description{\MarginText{Technische Universit\"at Berlin}Supported lab efforts on robotic infrastructure software. Implemented camera drivers, motion controllers and application for the ROS ecosystem.}
+\Description{\MarginText{Technische Universit\"at Berlin}Supported lab efforts on robotic infrastructure software. Implemented camera drivers, motion controllers and applications using the ROS ecosystem.}
 
 %------------------------------------------------
 
-\NewEntry{08/2010--01/2011}{Intern, \textsc{Hardware Development}}
+\NewEntry{08/2010-01/2011}{Intern, \textsc{Hardware Development}}
 
 \Description{\MarginText{Native Instruments GmbH}Assembled, tested, and documented prototype sound cards and audio controllers. Monitored ramp-up production in Shenzhen and acted as interpreter among German and Chinese colleagues.}
 
 %------------------------------------------------
 
-\NewEntry{01/2011--01/2012}{Teaching Assistent, \textsc{Electronics and Medical Signal Processing Laboratory}}
+\NewEntry{01/2011-01/2012}{Teaching Assistent, \textsc{Electronics and Medical Signal Processing Laboratory}}
 
-\Description{\MarginText{Technische Universit\"at Berlin}Main responsible tutor for an externally-funded micro-controller lab course.}
+\Description{\MarginText{Technische Universit\"at Berlin}Main responsible teaching assistant for an externally-funded micro-controller lab course.}
 
 %------------------------------------------------
 
-\NewEntry{01/2006--07/2007}{Student Employee, \textsc{Software Development}}
+\NewEntry{01/2006-07/2007}{Student Employee, \textsc{Software Development}}
 
 \Description{\MarginText{ATN GmbH}Developed PLC- and micro-controller-software for automatic light-soldering robots. Worked on the construction, assembly, and start-of-operation of multi- axis light-soldering machines.}
 
@@ -113,14 +113,14 @@
 
 \spacedlowsmallcaps{Education}\vspace{1em}
 
-\NewEntry{04/2013-present}{Universit\"at Bremen, Bremen}
+\NewEntry{04/2013-present}{Universit\"at Bremen}
 
 \Description{\MarginText{Student Dr-Ing Computer Science}
-Thesis topic: \textit{Movement-aware Control of Everyday Manipulation Tasks}\newline
+Working title: \textit{Movement-aware Control of Everyday Manipulation Tasks}\newline
 Advisor: Prof.~Michael \textsc{Beetz}}
 
 %------------------------------------------------
-\NewEntry{10/2005-01/2011}{Technische Universit\"at Berlin, Berlin}
+\NewEntry{10/2005-01/2011}{Technische Universit\"at Berlin}
 
 \Description{\MarginText{Dipl-Ing Computer Engineering}
 Thesis: \textit{Active Visual Primitives for Perception and Grasping}\newline
@@ -129,7 +129,7 @@ Advisor: Prof.~Oliver \textsc{Brock}}
 
 %------------------------------------------------
 
-\NewEntry{09/2007-08/2009}{Shanghai Jiao Tong University, Shanghai}
+\NewEntry{09/2007-08/2009}{Shanghai Jiao Tong University}
 
 \Description{\MarginText{Master of Science Computer Applied Technology}
 Thesis: \textit{Automatic Artifact Removal for EEG-based Brain-Computer Interfaces}\newline
@@ -138,7 +138,7 @@ Advisor: Prof.~Bao-Liang \textsc{Lu}}
 
 %------------------------------------------------
 
-\NewEntry{1998-2007}{Alexander-von-Humboldt-Oberschule, Berlin}
+\NewEntry{08/1998-05/2007}{Alexander-von-Humboldt-Oberschule}
 
 \Description{\MarginText{A-Levels}
 Majors: Mathematics, English, Political Science, and Computer Science.}
@@ -178,7 +178,7 @@ Available upon request.
 
 \Description{\MarginText{Intermediate} \LaTeX, Matlab, OpenOffice, Linux}
 
-\Description{\MarginText{Advanced}\textsc{C/C++}, \textsc{lisp}}
+\Description{\MarginText{Advanced}\textsc{C/C++}, \textsc{lisp}, \textsc{ROS}}
 
 %------------------------------------------------
 
