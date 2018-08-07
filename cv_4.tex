@@ -23,6 +23,10 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{datetime}
+\usdate
+\usepackage{eurosym}
 
 \name{Georg Bartels}
 %\address{http://ai.uni-bremen.de/team/georg\_bartels}
@@ -64,7 +68,9 @@ Advisor: Prof.~Bao-Liang \textsc{Lu}
 \begin{rSection}{Experience}
 	
 \begin{rSubsection}{Institute for Artificial Intelligence, Universit\"at Bremen}{Sep 2012 - present}{Research Assistant}{Bremen, Germany}
-  \item Research assistant for EU FP7 projects \textit{RoboHow.Cog} and \textit{SAPHARI}.
+  \item Research assistant for EU FP7 projects \textit{RoboHow.Cog} and \textit{SAPHARI}\\
+        EU H2020 project \textit{REFILLS} and DFG Corporate Research Center (CRC) \textit{EASE}.
+  \item Successful preparation of research proposals: DFG CRC \textit{EASE} (supporting role,\\ 10 million \euro), EU H2020 project \textit{REFILLS} (main responsible, 0.82 million \euro),\\ BMBF project \textit{RoPHa} (main responsible, 0.73 million \euro), industry project \textit{ARRINA}\\ (main responsible, 80,000 \euro)
   \item Teaching assistant for various courses in Bachelor and Master curriculum.
 \end{rSubsection}
 
@@ -122,8 +128,8 @@ Advisor: Prof.~Bao-Liang \textsc{Lu}
 
 \begin{rSection}{Technical Skills}
   \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    Basic & Prolog, Java, Python, VHDL, Eagle\\
-    Intermediate & Latex, Clojure, OpenOffice, Linux, Matlab, SVN\\
+    Basic & Prolog, OWL, Java, Clojure\\
+    Intermediate & Latex, Python, OpenOffice, Linux, Matlab, SVN\\
 	Advanced & Common LISP, C/C++, GIT, ROS
   \end{tabular}
 \end{rSection}
@@ -146,17 +152,18 @@ Advisor: Prof.~Bao-Liang \textsc{Lu}
 %--------------------------------------------------------------------
 
 \begin{rSection}{Publications}
-  \begin{itemize}
-  	\item Moritz Tenorth, Georg Bartels, Michael Beetz, \emph{"Knowledge-based Specification of Robot Motions"}, In Proceedings of the European Conference on Artificial Intelligence (ECAI), 2014. 
-  	
-  	\item Georg Bartels, Ingo Kresse, Michael Beetz, \emph{"Constraint-based Movement Representation grounded in Geometric Features"}, In Proceedings of the IEEE-RAS International Conference on Humanoid Robots, Atlanta, Georgia, USA, 2013.
-  	
-  	\item Jan Winkler, Georg Bartels, Lorenz M\"osenlechner, Michael Beetz, \emph{"Knowledge Enabled High-Level Task Abstraction and Execution"}, In First Annual Conference on Advances in Cognitive Systems, vol. 2, no. 1, Palo Alto, CA, pp. 131-148, 2012.
-  	
-  	\item Clemens Eppner, Georg Bartels, Oliver Brock, \emph{A Compliance-centric View of Grasping}, Technical Report, Department of Computer Engineering and Microelectronics, Technical University Berlin, 2012
-  	
-  	\item Georg Bartels, Li-Chen Shi, Bao-Liang Lu, \emph{Automatic artifact removal from EEG-a mixed approach based on double blind source separation and support vector machine}, In Proceedings of IEEE International Conference on Engineering in Medicine and Biology Society, Buenos Aires, Argentina, 2010.
-  \end{itemize}
+For a current list of my publications and citations, please refer to my \href{https://scholar.google.de/citations?user=VYEcxJIAAAAJ&hl=en&oi=ao}{Google Scholar profile}.
+%  \begin{itemize}
+%  	\item Moritz Tenorth, Georg Bartels, Michael Beetz, \emph{"Knowledge-based Specification of Robot Motions"}, In Proceedings of the European Conference on Artificial Intelligence (ECAI), 2014. 
+%  	
+%  	\item Georg Bartels, Ingo Kresse, Michael Beetz, \emph{"Constraint-based Movement Representation grounded in Geometric Features"}, In Proceedings of the IEEE-RAS International Conference on Humanoid Robots, Atlanta, Georgia, USA, 2013.
+%  	
+%  	\item Jan Winkler, Georg Bartels, Lorenz M\"osenlechner, Michael Beetz, \emph{"Knowledge Enabled High-Level Task Abstraction and Execution"}, In First Annual Conference on Advances in Cognitive Systems, vol. 2, no. 1, Palo Alto, CA, pp. 131-148, 2012.
+%  	
+%  	\item Clemens Eppner, Georg Bartels, Oliver Brock, \emph{A Compliance-centric View of Grasping}, Technical Report, Department of Computer Engineering and Microelectronics, Technical University Berlin, 2012
+%  	
+%  	\item Georg Bartels, Li-Chen Shi, Bao-Liang Lu, \emph{Automatic artifact removal from EEG-a mixed approach based on double blind source separation and support vector machine}, In Proceedings of IEEE International Conference on Engineering in Medicine and Biology Society, Buenos Aires, Argentina, 2010.
+%  \end{itemize}
 
 \end{rSection}
 
@@ -166,22 +173,14 @@ Advisor: Prof.~Bao-Liang \textsc{Lu}
 
 \begin{rSection}{Other Information}
   \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    ROS maintainer & Packages roslisp, roslisp_common, genlisp, cram_core, and cram_3rdparty\\
-    Award & School of EE and CS Undergraduate Study Award, TU Berlin (2007)\\
+    ROS maintainer & Packages roslisp, roslisp\_common, genlisp, giskard, giskard\_core, giskard\_ros\\
+    Awards \& Nominations & School of EE and CS Undergraduate Study Award, TU Berlin (2007)\\
+           & Finalist for \textit{Best Cognitive Robotics Paper Award} at IEEE IROS 2017\\
     Interests & Basketball, Cooking, Badminton, Foreign Languages, Reading, Traveling
   \end{tabular}
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
-%----------------------------------------------------------------------------------------
-
-%\begin{rSection}{Section Name}
-
-%Section content\ldots
-
-%\end{rSection}
-
-%----------------------------------------------------------------------------------------
+\vspace{3cm}
+\textbf{Bremen, \today}
 
 \end{document}
